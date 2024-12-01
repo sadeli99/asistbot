@@ -1,17 +1,17 @@
 {
-  "name": "telegram-bot",
+  "name": "nitah-bot",
   "version": "1.0.0",
-  "description": "Bot Telegram untuk memproses gambar dan mendapatkan hasil dari API.",
+  "description": "Telegram bot to process and send answers for images",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "node-fetch": "^3.3.2",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7",
     "form-data": "^4.0.0"
   },
   "engines": {
-    "node": "18.x"
-  },
-  "license": "MIT"
+    "node": "14.x"
+  }
 }
