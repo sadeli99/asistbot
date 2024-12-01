@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const FormData = require('form-data');
 const app = express();
 
-//const token = '8108031553:AAHNSX7hd62CC3GIrd3APT-2ccXm0IK15O4'; // Ganti dengan token bot kamu
+const token = '8148039823:AAE44HD-zwusj7KPrBRzMVMPHdiftY12IY8'; // Ganti dengan token bot kamu
 const telegramApiUrl = `https://api.telegram.org/bot${token}/`;
 
 app.use(express.json());
